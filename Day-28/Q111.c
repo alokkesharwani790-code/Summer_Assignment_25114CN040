@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    char name[50];
+    int tickets;
+    float price,total;
+    printf("The price of one ticket is rs 200\n");
+    price=200;
+    printf("Enter Name : ");
+    scanf("%s",name);
+    printf("Enter Number of Tickets : ");
+    scanf("%d",&tickets);
+    total=tickets*price;
+    printf("\n===Ticket Details===\n");
+    printf("Name : %s\n",name);
+    printf("Tickets : %d\n",tickets);
+    printf("Total Amount : %.2f\n",total);
+    return 0;
+}
